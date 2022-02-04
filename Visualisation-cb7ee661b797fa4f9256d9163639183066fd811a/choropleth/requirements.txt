@@ -1,0 +1,15 @@
+For the choropleth plot it is needed Anaconda:
+
+You should create geo environment and install geopandas :
+1. In the Anaconda prompt do the following commands:
+- conda create -n geo_env
+-conda activate geo_env
+-conda config  --env --add channels conda-forge
+-conda config --env --set channel_priority strict
+-conda install geopandas
+-import geopandas
+2.Then in Anaconda you open with the geo_env Jupiter 
+If you do not have Jupiter for geo_env you need to press the button install and then
+open Jupiter with geo_env
+3. After that there are the instructions to install all packages that you do not have installed
+with pip install package_name
